@@ -294,41 +294,11 @@ i {
     color: var(--secondary-text-color);
 }
 
-/* Colaboradores */
-#team {
-    position: relative;
-    margin-bottom: 2rem;
-  }
-  
-  #team h2 {
-    font-size: 3rem;
-    text-align: center;
-    max-width: 1000px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 2;
-  }
-  
-  #team h2 span {
-    color: var(--main-color);
-  }
-  
-  #team .square {
-    background-color: var(--tertiary-color);
-    width: 100px;
-    height: 100px;
-    left: 50%;
-    margin-left: -50px;
-    top: -25px;
-  }
-  
-  .employees {
-    display: flex;
-    gap: 2rem;
-  }
-  
+/* **** Colaboradores **** */
 
-  
+.employees {
+    display: flex;
+}
 
 /* *** Contato **** */
 
@@ -478,71 +448,38 @@ i {
   #close-menu{
     font-size: 2rem;
     padding: 1rem;
-    display:none;
+    display: none;
   }
-
   #close-menu{
-    position:absolute;
+    position: absolute;
     top:0;
-    right:0;
+    right:0%;
   }
 
   #mobile-navbar{
-    position:fixed;
+    position: fixed;
     top:0;
-    left:100%;
-    height:100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.90);
+    left:100;
+    height:100;
+    background-color: rgba(0,0,0,0.95);
     display: flex;
     flex-direction: column;
     padding: 4rem 2rem;
     transition: 0.4s;
-    z-index: 3;
-  }  
-
-  #mobile-navbar.menu-active{
-    left:0;
   }
 
+  #mobile-navbae
   #mobile-navbar a{
     color: var(--primary-text-color);
     font-size: 2rem;
     text-align: center;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid var(--main-color);
-  }
 
+  }
+  
 
   @media (max-width:450px){
-    body{
-        /* esconder o scrool lateral se sobrar a direita */
-        overflow-x: hidden;
-    }
-    i {
-        padding: 1rem;
-        font-size: 1.5rem;
-    }
-    #navbar{
-        display:none;
-    }
-    #menu,
-    #close-menu{
-        display:block;
-    }
-    /* banner e texto do banner */
-    .banner{
-        max-width: 100%;
-        padding: 4rem 2rem;
-    }
-    .banner h2{
-        font-size: 2.9rem;
-    }
-    .banner p{
-        font-size: 1.2rem;
-    }
-    /* Áreas de atuação */
     .btn{
         align-self: initial;
     }
@@ -552,86 +489,6 @@ i {
     #other-services{
         flex-wrap: wrap;
     }
-
-    /* Sobre nós */
-    #about{
-        
-    }
-    #about-text,
-    #about-data{
-        flex: 1 1 100%;
-    }
-    .about-description{
-        gap: 1rem;
-    }
-    .about-description i{
-        padding:0;
-        min-width: 40px;
-    }
-    #about #about-data .data {
-        width: 100%;
-        border: none;
-        border-bottom: 1px solid var(--secondary-text-color)
-    }
-    /* Depoimentos */
-    .text-container{
-        text-align: center;
-        padding: 2rem;
-    }
-    /* Colaboradores */
-    #team {
-        margin-top: 2rem;
-    }
-    #team h2{
-        font-size: 2.5rem;
-    }
-    .employees{
-        /* flex-direction: column; */
-        flex-wrap: wrap;
     }
 
-    /* Contato */
-    #contact{
-        padding-bottom: 0;
-    }
-    #contact-information{
-        padding: 7rem 1rem;
-    }
-    #contact-information .form-control{
-        flex-direction: column;
-    }
-    #contact-information .btn{
-        align-self: auto;
-    }
-    /* Rodapé - Footer */
-    #footer{
-        flex-wrap: wrap;
-    }
-
-    .contact-info,
-    .links-container{
-        width: 100%;
-    }
-
-    #footer i{
-        font-size: 2rem;
-        padding:1rem;
-    }
-
-    .footer-brand{
-        text-align:center;
-    }
-
-    .networks{
-        margin-bottom: 3rem;
-    }
-
-    .links-container{
-        margin-bottom: 1rem;
-    }
-
-    .links-container h4{
-        margin-bottom: 1.5rem;
-    }
-
-  }
+    

@@ -313,21 +313,29 @@ i {
     color: var(--main-color);
   }
   
-  #team .square {
+  /* #team .square {
     background-color: var(--tertiary-color);
     width: 100px;
     height: 100px;
     left: 50%;
     margin-left: -50px;
     top: -25px;
-  }
+  } */
   
   .employees {
     display: flex;
     gap: 2rem;
+    padding: 2rem;
+    text-align: center;
   }
   
-
+  .employee-name {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
   
 
 /* *** Contato **** */
@@ -493,7 +501,7 @@ i {
     left:100%;
     height:100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.90);
+    background-color: rgba(0,0,0,0.95);
     display: flex;
     flex-direction: column;
     padding: 4rem 2rem;
@@ -554,9 +562,9 @@ i {
     }
 
     /* Sobre nós */
-    #about{
+    /* #about{
         
-    }
+    } */
     #about-text,
     #about-data{
         flex: 1 1 100%;
