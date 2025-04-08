@@ -86,6 +86,8 @@ i {
 
 .banner p{
     font-size: 1.5rem;
+    z-index: 2;
+    position: relative;
 }
 
 .square{
@@ -96,7 +98,7 @@ i {
     position: absolute;
     left: 20px;
     top: 40px;
-    z-index:1;
+    z-index:0;
 }
 
 .dots{
@@ -325,9 +327,17 @@ i {
   .employees {
     display: flex;
     gap: 2rem;
+    padding: 2rem;
+    text-align: center;
   }
   
-
+  .employee-name {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
   
 
 /* *** Contato **** */
